@@ -3,7 +3,7 @@ package gun
 import "fmt"
 
 func GunFactory(gunType string) (igun, error) {
-	if gunType == "glub" {
+	if gunType == "glob" {
 		return newGlub(), nil
 	} else if gunType == "ak47" {
 		return newAk47(), nil
